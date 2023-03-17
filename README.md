@@ -1,8 +1,9 @@
 # How to run this app
 
 - Download/clone this repo to your local drive
-- Navigate to project flolder (if downloaded: folder name = fulhausFE-master) and open terminal
+- Navigate to project folder (if downloaded: folder name = fulhausFE-master) and open terminal inside the directory
 - In the terminal run this command: npm install react-scripts --save
+- Press "Enter" through all configuration
 - You can open the project folder in VS code
 - Onnce the project is open in VS code, open terminal and run: npm start
 - The react app will start running on http://localhost:3000/
@@ -16,3 +17,4 @@
 - App is responsive and will adapt to screen size change. 
 
 # Demo
+
