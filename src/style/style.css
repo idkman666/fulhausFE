@@ -1,0 +1,117 @@
+.shoppingCart{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    min-width: 300px;
+    height: 600px;
+    background-color: antiquewhite;
+    z-index: 3;
+}
+
+.shopping-cart-tile{
+    margin: auto;
+    width: 95%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 30px;
+   
+}
+
+h6{
+    font-size: 12px !important;
+}
+.itemTile{
+    background-color: grey;
+
+}
+.price-container{
+    justify-content: space-between;
+    width: 100%;
+    display: inline-flex !important;
+}
+.totalPrice{
+    float: left;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: gainsboro;
+}
+.totalPrice>div>h3{
+    font-size: 20px;
+    margin-right: 100px;
+    overflow-x: hidden;
+    scrollbar-width: none;
+   
+}
+.previewImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.myOrderContainer{
+    height: 100%;
+    overflow-y: scroll;
+}
+.preview-container{
+    background-color: gray;
+}
+.preview-description{
+    height: 200px;
+}
+.grid-tile{
+    border: 4px solid black
+}
+.image-tile, .clickableIcons{
+    cursor: pointer;
+}
+.body{
+    padding:10px;
+    margin-top: 10px;
+    background-color: darkslategrey;
+    border: 15px solid darkslategrey;
+}
+
+.carousel-inner{
+    height: 500px;
+    width: 250px;
+}
+h6,h3,h2,h1,h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+@media screen and (max-width: 1000px) {
+    .preview-container  {
+      display: none;
+    }
+    .shoppingCart{
+        position: absolute;            
+        width: 100%;
+        height: 600px;
+        background-color: antiquewhite;
+        z-index: 33;
+        right: 0px !important;
+    }
+    .selected-item-image{
+        width: 30% !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .selected-item-image{
+        width: 30% !important;
+    }
+
+    .shopping-cart-tile{
+        min-width: 340px;
+    }
+
+    .totalPrice, .body, .myOrderContainer{
+        min-width: 300px;
+    }
+    
+}
+
