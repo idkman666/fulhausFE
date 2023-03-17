@@ -5,7 +5,7 @@
 - In the terminal run this command: npm install react-scripts --save
 - Press "Enter" through all configuration
 - You can open the project folder in VS code
-- Onnce the project is open in VS code, open terminal and run: npm start
+- Once the project is open in VS code, open terminal and run: npm start
 - The react app will start running on http://localhost:3000/
 
 
